@@ -11,6 +11,7 @@ scrollbit.show()
 basic.pause(1000)
 basic.forever(function () {
     scrollbit.setPixel(randint(0, 16), randint(0, 6), randint(48, 81))
+    scrollbit.show()
     scrollbit.setPixel(randint(0, 16), randint(0, 6), 0)
     scrollbit.show()
 })
